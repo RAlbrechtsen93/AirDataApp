@@ -15,14 +15,14 @@ namespace AirDataApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Select which substance you want to see results of";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Select where you want to see results from";
 
             return View();
         }
